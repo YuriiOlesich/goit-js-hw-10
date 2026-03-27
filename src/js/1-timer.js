@@ -1,7 +1,6 @@
 // 1-timer.js
 
 import flatpickr from "https://cdn.jsdelivr.net/npm/flatpickr/+esm";
-import iziToast from "https://cdn.jsdelivr.net/npm/izitoast/+esm";
 
 // Елементи
 const datetimePicker = document.getElementById("datetime-picker");
