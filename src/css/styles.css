@@ -16,3 +16,129 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.timer-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#datetime-picker {
+  padding: 14px 18px;
+  font-size: 18px;
+  width: 300px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.start-btn {
+  padding: 12px 40px;
+  font-size: 18px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.start-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-size: 52px;
+  font-weight: bold;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  min-width: 90px;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Snackbar / Promise Generator styles */
+.form {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form input[type="number"] {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 18px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+fieldset {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+  padding: 0 10px;
+}
+
+.form label[for] {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
