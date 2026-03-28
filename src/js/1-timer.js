@@ -2,6 +2,8 @@
 
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.css';
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
 
 // Елементи
 const datetimePicker = document.getElementById("datetime-picker");
