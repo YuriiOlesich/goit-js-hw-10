@@ -1,6 +1,7 @@
 // 1-timer.js
 
-import flatpickr from "https://cdn.jsdelivr.net/npm/flatpickr/+esm";
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";  
 
 // Елементи
 const datetimePicker = document.getElementById("datetime-picker");
